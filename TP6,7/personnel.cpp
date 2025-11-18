@@ -14,6 +14,7 @@ float Personnel :: getsalaire () const{ return salaire;}
 void Personnel :: setsalaire (const float& salaire){ this->salaire = salaire; }
 
 void Personnel :: affiche (){
-
+        Personne :: affiche ();
+        cout << "Salaire : " << salaire << endl;
 }
 

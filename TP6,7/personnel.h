@@ -10,7 +10,7 @@ private:
     float salaire;
 public:
     Personnel(const string& nom, const string& prenom, const string& adresse = "", 
-        const string& telephone ="", const string& salaire= "");
+        const string& telephone ="", const float& salaire= 0);
 
     float calculsalaire ();
 
