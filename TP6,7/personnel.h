@@ -10,15 +10,15 @@ private:
     float salaire;
 public:
     Personnel(const string& nom, const string& prenom, const string& adresse = "", 
-        const string& telephone ="", const float& salaire= 0);
+        const string& telephone ="", const float& salaire= 0.0);
 
-    float calculsalaire ();
+    virtual float calculsalaire ();
 
     float getsalaire () const;
 
     void setsalaire (const float& salaire);
 
-    void affiche ();
+    virtual void affiche ();
 
 };
 #endif 
