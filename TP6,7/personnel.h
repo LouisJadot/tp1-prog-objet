@@ -12,7 +12,8 @@ public:
     Personnel(const string& nom, const string& prenom, const string& adresse = "", 
         const string& telephone ="", const float& salaire= 0.0);
 
-    virtual float calculsalaire ();
+    virtual float calculsalaire() = 0;
+
 
     float getsalaire () const;
 
